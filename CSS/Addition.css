@@ -1,0 +1,69 @@
+header{
+    text-align: center;
+    font-size: 170%;
+    font-weight: normal;
+    background-color: lightskyblue;
+    padding: 25px;
+    border: 3px solid black;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav{
+    display: block;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    padding: 10px;
+    background-color: lightskyblue;
+    text-align: center;
+    border: 3px solid black;
+    border-top: none;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    padding-top: 20px;
+}
+
+/* Form Styling*/
+
+input[type="text"],
+input[type="number"]{
+    width: 50%;
+    display: block;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 40px;
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+input[type="submit"],
+input[type="reset"]{
+    margin-left: 10px;
+    padding: 10px;
+    width: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+form label{
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+form{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: lightcyan;
+    font-size: larger;
+    border: 3px solid black;
+}
+

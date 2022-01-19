@@ -1,0 +1,89 @@
+body{
+    background-color: teal;
+}
+
+
+header{
+    text-align: center;
+    font-size: 170%;
+    font-weight: normal;
+    color: white;
+    /*background-color: lightskyblue;*/
+    padding: 25px;
+    /*border: 3px solid black;*/
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav{
+    display: block;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    padding: 10px;
+    background-color: lightskyblue;
+    text-align: center;
+    border: 3px solid black;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    padding-top: 20px;
+}
+
+/* Table Styling*/
+table th{
+    text-align: left;
+    /*background-color: lightskyblue;*/
+    border: 2px solid white;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+table tbody td{
+    text-align: left;
+    /*background-color: lightcyan;*/
+    border: 2px solid white;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table tfoot td{
+    text-align: left;
+    /*background-color: lightskyblue;*/
+    border: 2px solid white;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.Head-Name{
+    width: 80%;
+}
+
+.Head-Price,
+.Head-Quan{
+    width: 10%;
+}
+
+table.shopping-list tr :nth-child(2),
+table.shopping-list tr :nth-child(3){
+    text-align: center;
+}
+
+
+table{
+    color: white;
+    border-spacing: 0;
+    border-collapse: collapse;
+    padding-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

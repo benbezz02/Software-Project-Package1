@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Addition of Items</title>
+        <link rel="stylesheet" href="CSS/Addition.css">
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Add New Item</h1>
+        </header>
+
+        <form>
+            <label for="Item_Name">Name:</label>
+            <input id="Item_Name" type="text" name="Name" required><br>
+
+            <label for="Item_Price">Price(in Euros):</label>
+            <input id="Item_Price" type="number" step="any" name="Price" required><br>
+
+            <label for="Item_Quantity">Quantity of this Item:</label>
+            <input id="Item_Quantity" type="number" name="Quantity" required><br>
+
+            <input type="submit" value="Save" onclick="addToItemList()">
+            <input type="reset">
+        </form>
+
+        <nav>
+            <a href="Main.html">Back to your Cart</a>
+        </nav>
+
+        <table id="maintable">
+
+            <thead>
+                <tr>
+                    <th class="Head-Name">Item Name</th>
+                    <th class="Head-Quan">Quantity</th>
+                    <th class="Head-Price">Price(Euros)</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+
+            <tbody>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td></td>
+                    <td id="total"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tfoot>
+            
+        </table>
+
+        <footer>
+            <img src="Cart.jpg" width="900" height="600" alt="Shopping Cart">
+        </footer>
+
+        <script src="JScript.js"></script>
+    </body>
+
+</html>
