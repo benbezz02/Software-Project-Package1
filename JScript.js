@@ -24,6 +24,7 @@ function minusTotal(price, quantity){
 
 function addToItemList(){
 
+    //Obtaining user's input
     let a = document.getElementById("Item_Name").value;
     let b = parseFloat(document.getElementById("Item_Price").value);
     let c = parseInt(document.getElementById("Item_Quantity").value);
@@ -55,11 +56,11 @@ function deleteItem(row, num, price, quantity){
 
 function updateItem(row, num, name, price, quantity){
 
-    document.getElementById("Item_Name").innerHTML = name;
-    document.getElementById("Item_Price").innerHTML = price;
-    document.getElementById("Item_Quantity").innerHTML = quantity;
+    document.getElementById("Item_Name").value = name;
+    document.getElementById("Item_Price").value = price;
+    document.getElementById("Item_Quantity").value = quantity;
 
-    //deleteItem(row, num, price, quantity);
+    deleteItem(row, num, price, quantity);
 }
 
 function addRow(a, b, c) {
