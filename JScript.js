@@ -8,6 +8,7 @@ let ArrayNum = 0;
 
 function addTotal(price, quantity){
 
+    //Adding up the total and printing it
     total = total + (price * quantity);
 
     document.getElementById("total").innerHTML = total;
@@ -16,6 +17,7 @@ function addTotal(price, quantity){
 
 function minusTotal(price, quantity){
 
+    //Deducting the total and printing it
     total = total - (price * quantity);
 
     document.getElementById("total").innerHTML = total;
@@ -32,9 +34,11 @@ function addToItemList(){
     addTotal(b, c);
     //console.log(total);
     
+    //Filling array where everything will be temporarily stored
     mainArray[x] = [a, b, c];
     console.log(mainArray);
 
+    //Adding rows to the already created table in add.html
     addRow(a, b, c);
     
     x++;
@@ -44,6 +48,7 @@ function addToItemList(){
 
 function deleteItem(row, num, price, quantity){
 
+    //Deleting Row and setting its place in the array to null
     document.getElementById("maintable").deleteRow(row); 
 
     mainArray[num] = null;
@@ -56,6 +61,7 @@ function deleteItem(row, num, price, quantity){
 
 function updateItem(row, num, name, price, quantity){
 
+    //Attempt in printing the variables in the add.html and then proceeding to delete
     document.getElementById("Item_Name").value = name;
     document.getElementById("Item_Price").value = price;
     document.getElementById("Item_Quantity").value = quantity;
@@ -72,7 +78,7 @@ function addRow(a, b, c) {
     ArrayNum = row.rowIndex + noDel;
     rownum = row.rowIndex;
     
-    //Inserting cell data
+    //Inserting cell data and the delete and update buttons
     var data = row.insertCell(0);
     data.innerHTML = a;
     data = row.insertCell(1);
