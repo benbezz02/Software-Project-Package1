@@ -1,16 +1,10 @@
-body{
-    background-color: teal;
-}
-
-
 header{
     text-align: center;
     font-size: 170%;
     font-weight: normal;
-    color: white;
-    /*background-color: lightskyblue;*/
+    background-color: lightskyblue;
     padding: 25px;
-    /*border: 3px solid black;*/
+    border: 3px solid black;
     margin-bottom: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -38,8 +32,8 @@ img {
 /* Table Styling*/
 table th{
     text-align: left;
-    /*background-color: lightskyblue;*/
-    border: 2px solid white;
+    background-color: lightskyblue;
+    border: 2px solid black;
     padding: 10px;
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
@@ -47,16 +41,16 @@ table th{
 
 table tbody td{
     text-align: left;
-    /*background-color: lightcyan;*/
-    border: 2px solid white;
+    background-color: lightcyan;
+    border: 2px solid black;
     padding: 10px;
     font-family: 'Times New Roman', Times, serif;
 }
 
 table tfoot td{
     text-align: left;
-    /*background-color: lightskyblue;*/
-    border: 2px solid white;
+    background-color: lightskyblue;
+    border: 2px solid black;
     padding: 10px;
     font-family: 'Times New Roman', Times, serif;
     font-size: larger;
@@ -78,7 +72,6 @@ table.shopping-list tr :nth-child(3){
 
 
 table{
-    color: white;
     border-spacing: 0;
     border-collapse: collapse;
     padding-bottom: 20px;
